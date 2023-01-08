@@ -43,6 +43,7 @@ app.post("/todos", async (req, res) => {
   } catch (error) {
     console.log(error);
     return response.status(422).json(error);
+    
   }
 });
 
